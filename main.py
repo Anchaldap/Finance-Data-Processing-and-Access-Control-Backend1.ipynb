@@ -14,7 +14,7 @@ markdown
 """
 
 # Install the web server tools
-!pip install -q fastapi uvicorn nest_asyncio
+
 
 import threading, uvicorn, nest_asyncio, uuid, time
 from fastapi import FastAPI, Header, HTTPException
